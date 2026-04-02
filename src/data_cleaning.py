@@ -2,7 +2,7 @@ import pandas as pd
 
 def clean_data(file_path = "../data/messy_sales_data.xlsx"):
 
-    df = pd.read_csv(file_path = "../data/messy_sales_data.xlsx")
+    df = pd.read_excel(file_path = "../data/messy_sales_data.xlsx")
 
     print("Before:", df.shape)
 
