@@ -3,7 +3,7 @@ from src.kpi import calculate_kpis
 from src.visualization import create_charts
 from src.report import generate_report
 
-file = "../data/messy_sales_data.xlsx"
+file = "data/messy_sales_data.xlsx"
 
 df = clean_data(file)
 

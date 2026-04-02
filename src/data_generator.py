@@ -31,7 +31,7 @@ def generate_data(rows=2000):
 
     df = df.sample(frac=1)
 
-    df.to_csv("../data/messy_sales_data.xlsx", index=False)
+    df.to_excel("../data/messy_sales_data.xlsx", index=False)
 
     print("Messy data created!")
 
